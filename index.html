@@ -2,78 +2,337 @@
 <html lang="en-CA">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="theme-color" content="#0f172a" />
-		<meta name="color-scheme" content="light dark" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="canonical" href="https://guilhermelemos14.github.io/" />
+		<meta name="theme-color" content="#020617" />
+		<meta name="color-scheme" content="dark light" />
+		<title>Guilherme Lemos — Web Development</title>
 		<meta
 			name="description"
-			content="Portfolio - a curated selection of my best projects and creative work." />
-		<meta property="og:title" content="Portfolio - Guilherme Lemos" />
+			content="Full‑stack web developer focused on elegant, functional, and custom digital experiences." />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Guilherme Lemos — Web Development" />
 		<meta
 			property="og:description"
-			content="Portfolio - a curated selection of my best projects and creative work." />
+			content="Custom websites built with identity, clarity, and results in mind." />
+		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://guilhermelemos14.github.io/" />
 		<meta property="og:site_name" content="Guilherme Lemos" />
+
+		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Portfolio - Guilherme Lemos" />
+		<meta
+			name="twitter:title"
+			content="Guilherme Lemos — Web Development" />
 		<meta
 			name="twitter:description"
-			content="Portfolio - a curated selection of my best projects and creative work." />
-		<title>Portfolio - Guilherme Lemos</title>
+			content="Full‑stack web developer focused on elegant, functional, and custom digital experiences." />
+
 		<link rel="stylesheet" href="/assets/css/style.css" />
-		<link
-			rel="shortcut icon"
-			href="/public/favicon.ico"
-			type="image/x-icon" />
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "WebSite",
-				"name": "Kaelunyx Space",
-				"url": "https://kaelunyx.space/",
-				"description": "Portfolio - a curated selection of my best projects and creative work.",
-				"publisher": {
-					"@type": "Person",
-					"name": "Guilherme Lemos"
-				},
-				"inLanguage": "en-CA"
-			}
-		</script>
 	</head>
 	<body>
-		<header>
-			<h1>Portfolio</h1>
-			<p>Selected works, experiments, and universes I've built.</p>
-			<p>Currently in development</p>
+		<!-- HERO -->
+		<section class="hero">
+			<h1>Professional, clean, and custom‑built websites</h1>
 			<p>
-				<a href="/pt"> Ver portfólio em português </a>
+				I develop modern, fast, and clean digital experiences — perfect
+				for businesses that want to convey confidence and
+				professionalism.
 			</p>
-		</header>
-		<main>
-			<section class="portfolio-section">
-				<h2>Featured Project</h2>
-				<div class="project">
-					<h3>LITG Universe Store</h3>
-					<div class="project-preview">
-						<a
-							href="https://litg-universe-store.netlify.app/?utm_source=guilhermelemos14.github.io&utm_medium=referral&utm_campaign=portfolio"
-							rel="external noopener"
-							target="_blank">
-							<img
-								decoding="async"
-								src="/assets/img/portfolio/litg-preview.webp"
-								height="972"
-								width="1920"
-								alt="Preview of LITG Universe Store" />
-						</a>
+			<a href="/pt" class="lang-link"
+				><i lang="pt-BR">Ver portfólio em português</i></a
+			>
+		</section>
+
+		<div class="container">
+			<!-- PORTFOLIO -->
+			<section id="portfolio">
+				<h2>Portfolio</h2>
+				<p class="section-desc">
+					A selection of projects I developed with a focus on clarity,
+					identity, and user experience.
+				</p>
+
+				<div class="portfolio-grid">
+					<a
+						class="project"
+						href="https://litg-universe-store.netlify.app/?utm_source=guilhermelemos14.github.io&utm_medium=referral&utm_campaign=portfolio"
+						rel="external noopener"
+						target="_blank">
+						<img
+							src="/assets/img/portfolio/litg-preview.webp"
+							alt="LITG Universe Store" />
+						<h3>LITG Universe Store</h3>
+						<p>
+							A virtual store with a modern aesthetic and clear
+							navigation.
+						</p>
+					</a>
+
+					<div class="project">
+						<strong>More coming soon...</strong>
 					</div>
-					<p>Click the preview to enter the full experience.</p>
 				</div>
 			</section>
-		</main>
-		<footer>
-			<p>&copy; 2026 Guilherme Lemos. All rights reserved.</p>
-		</footer>
+
+			<!-- PLANS -->
+			<section id="plans">
+				<h2>Maintenance Plans</h2>
+				<p class="section-desc">
+					Choose the ideal plan to keep your website updated, secure,
+					and running smoothly.
+				</p>
+
+				<div class="plans">
+					<div class="plan shadow">
+						<h3>Essential</h3>
+						<p class="price">R$ 20/month</p>
+						<ul class="features">
+							<li>
+								<span class="yes">✔</span> Simple text updates
+							</li>
+							<li>
+								<span class="yes">✔</span> Up to 2 image
+								replacements/month
+							</li>
+							<li>
+								<span class="yes">✔</span> Fixing small errors
+							</li>
+							<li><span class="no">✘</span> Product updates</li>
+							<li>
+								<span class="no">✘</span> Visual adjustments
+							</li>
+							<li><span class="no">✘</span> Priority support</li>
+						</ul>
+					</div>
+
+					<div class="plan recommended">
+						<h3>Recommended</h3>
+						<p class="price">R$ 40/month</p>
+						<ul class="features">
+							<li>
+								<span class="yes">✔</span> Text and photo
+								updates
+							</li>
+							<li><span class="yes">✔</span> Product updates</li>
+							<li>
+								<span class="yes">✔</span> Light layout
+								adjustments
+							</li>
+							<li>
+								<span class="yes">✔</span> Support for
+								questions
+							</li>
+							<li>
+								<span class="yes">✔</span> Full monthly review
+							</li>
+							<li><span class="no">✘</span> Unlimited updates</li>
+						</ul>
+					</div>
+
+					<div class="plan shadow">
+						<h3>Complete</h3>
+						<p class="price">R$ 70/month</p>
+						<ul class="features">
+							<li>
+								<span class="yes">✔</span> Unlimited updates
+							</li>
+							<li>
+								<span class="yes">✔</span> Adding new products
+							</li>
+							<li>
+								<span class="yes">✔</span> Continuous
+								improvements
+							</li>
+							<li><span class="yes">✔</span> Fast support</li>
+							<li>
+								<span class="yes">✔</span> Monthly technical
+								review
+							</li>
+							<li>
+								<span class="yes">✔</span> Maximum priority
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- PROJECT QUESTIONS -->
+			<section id="questions">
+				<h2>Questions to Start Your Project</h2>
+				<p class="section-desc">
+					These questions help me understand exactly what you need.
+				</p>
+
+				<div class="questions shadow">
+					<ol>
+						<li>
+							<p>
+								How do you imagine the overall style of the
+								site?
+							</p>
+						</li>
+						<li>
+							<p>
+								Is there any color, font, or visual element that
+								is already part of your brand?
+							</p>
+						</li>
+						<li>
+							<p>
+								Do you already have photos of your business, or
+								do you prefer temporary placeholder images?
+							</p>
+						</li>
+						<li>
+							<p>
+								What information is essential on the homepage?
+							</p>
+						</li>
+						<li>
+							<p>
+								Should the site focus more on local clients,
+								online sales, scheduling, or brand promotion?
+							</p>
+						</li>
+						<li>
+							<p>Is there any reference website you like?</p>
+						</li>
+						<li><p>What is the main goal of the website?</p></li>
+					</ol>
+				</div>
+			</section>
+
+			<!-- FAQ -->
+			<section id="faq">
+				<h2>Frequently Asked Questions</h2>
+				<p>
+					Some common questions that may help before starting the
+					project.
+				</p>
+				<div class="questions shadow">
+					<ol>
+						<li>
+							<p>
+								<strong
+									>How long does it take to build a
+									website?</strong
+								><br />
+								It depends on the project size, but a simple
+								website usually takes between 5 and 10 business
+								days.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong
+									>Do you design everything from scratch or
+									use templates?</strong
+								><br />
+								I design everything from scratch, based on your
+								style, identity, and business needs.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong
+									>Do I need to have photos and text
+									ready?</strong
+								><br />
+								Not necessarily. If you don’t have them yet, I
+								can use temporary images and help you organize
+								the content.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong>Is the website mobile‑friendly?</strong
+								><br />
+								Yes. All websites are fully responsive and
+								adapted for mobile, tablet, and desktop.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong>Are domain and hosting included?</strong
+								><br />
+								No. But I can guide you to choose the best
+								option and configure everything for you.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong
+									>Can I request changes after the site is
+									ready?</strong
+								><br />
+								Yes. You can choose one of the maintenance plans
+								to keep receiving updates.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong>Do you work with online stores?</strong
+								><br />
+								Yes. I build complete stores with products,
+								categories, cart, and checkout.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong>How does payment work?</strong><br />
+								Usually 50% upfront and 50% upon delivery, but I
+								can adapt depending on the project.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong
+									>Do you offer support after
+									delivery?</strong
+								><br />
+								Yes. All maintenance plans include ongoing
+								support.
+							</p>
+						</li>
+						<li>
+							<p>
+								<strong>How do I get started?</strong><br />
+								You can contact me via Instagram or email — I
+								reply quickly and we can align everything.
+							</p>
+						</li>
+					</ol>
+				</div>
+			</section>
+
+			<!-- CONTACT -->
+			<section id="contact">
+				<h2>Contact</h2>
+				<p class="section-desc">Get in touch via Instagram or email.</p>
+
+				<div class="contact shadow">
+					<p>
+						<strong>Instagram:</strong>
+						<a
+							href="https://instagram.com/guilhermelemos14_"
+							rel="external noopener noreferrer"
+							target="_blank"
+							>@guilhermelemos14_</a
+						>
+					</p>
+					<p>
+						<strong>Email:</strong>
+						<a
+							href="mailto:guilherls@proton.me"
+							rel="external"
+							target="_blank"
+							>guilherls@proton.me</a
+						>
+					</p>
+				</div>
+			</section>
+		</div>
+		<footer>© 2026 Guilherme Lemos — All rights reserved.</footer>
 	</body>
 </html>
